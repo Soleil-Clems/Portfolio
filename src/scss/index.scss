@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "./components/settings";
+@import "./components/navigation";
+@import "./components/home";
+@import "./components/about";
+@import "./components/projects";
+@import "./components/techno";
+@import "./components/footer";

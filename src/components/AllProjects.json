@@ -1,0 +1,159 @@
+[
+    {
+        "name": "Tweeter Clone",
+        "img": "./assets/tweeter.png",
+        "github": "https://github.com/Soleil-Clems/Tweeter_Clone",
+        "techno": [
+            "php",
+            "js",
+            "css",
+            "html",
+            "sql",
+            "jquery",
+            "mvc",
+            "tailwind"
+        ],
+        "description": "Ce projet consiste à reproduire les fonctionnalités de Twitter dans une application personnalisée. En utilisant les principaux éléments de conception et de fonctionnement de Twitter, j'ai développé une plateforme qui permet aux utilisateurs de publier des messages courts, de suivre d'autres utilisateurs, de réagir à des publications et bien plus encore."
+    },
+    {
+        "name": "Dating App",
+        "img": "./assets/mymeetic.png",
+        "github": "https://github.com/Soleil-Clems/My_meetic",
+        "techno": [
+            "php",
+            "js",
+            "css",
+            "html",
+            "sql",
+            "jquery",
+            "mvc",
+            "tailwind"
+        ],
+        "description": "En utilisant une approche centrée sur l'utilisateur, j'ai conçu une interface conviviale et intuitive qui permet aux utilisateurs de créer des profils, de rechercher des correspondances en fonction de leurs préférences, et d'engager des conversations. Une application de rencontres destinée à créer des connexions significatives entre les utilisateurs"
+    },
+    {
+        "name": "Netflix Clone",
+        "img": "./assets/mycinema.png",
+        "github": "https://github.com/Soleil-Clems/My_Cinema",
+        "techno": [
+            "php",
+            "js",
+            "css",
+            "html",
+            "sql",
+            "api",
+            "chartjs"
+        ],
+        "description": " En utilisant les technologies modernes du développement web, j'ai créé une application web attrayante et réactive qui permet aux utilisateurs de parcourir une vaste bibliothèque de contenus, de regarder des vidéos en streaming."
+    },
+    {
+        "name": "Game Alter",
+        "img": "./assets/game_alter.png",
+        "github": "https://github.com/Soleil-Clems/Game_Alter",
+        "techno": [
+            "phaser"
+        ],
+        "description": "Game Alter est un jeu interactif développé avec le framework Phaser, conçu pour simuler des entretiens pour obtenir une alternance. Les joueurs peuvent incarner l'un des quatre personnages disponibles et participer à des simulations d'entretiens pour développer et mettre en pratique leurs compétences en entretien d'embauche."
+    },
+    {
+        "name": "File explorer",
+        "img": "./assets/h5ai.png",
+        "github": "https://github.com/Soleil-Clems/File_Explorer",
+        "techno": [
+            "php",
+            "js",
+            "css",
+            "html",
+            "sql",
+            "jquery",
+            "prismjs"
+        ],
+        "description": "Développement d'un explorateur de fichiers intuitif pour faciliter la navigation et la gestion des fichiers sur différentes plateformes. En utilisant les principes de conception centrée sur l'utilisateur, j'ai créé une interface conviviale qui permet aux utilisateurs d'explorer facilement leur système de fichiers."
+    },
+    {
+        "name": "BBCode Editor",
+        "img": "./assets/wysiwyg.png",
+        "github": "https://github.com/Soleil-Clems/WYSIWYG",
+        "techno": [
+            "js",
+            "css",
+            "html"
+        ],
+        "description": "Projet consiste à développer un éditeur de texte prenant en charge la syntaxe BBCode pour la création et la modification de contenu formaté. En utilisant les principes de conception logicielle et les techniques de traitement de texte."
+    },
+    {
+        "name": "Framework css",
+        "img": "./assets/skeleton.png",
+        "github": "https://github.com/Soleil-Clems/Framework_css",
+        "techno": [
+            "js",
+            "css",
+            "sass"
+        ],
+        "description": "Framework_css est un squelette (skeleton) prêt à l'emploi pour démarrer rapidement le développement de vos projets web. Il fournit une base solide de styles de base et de composants SCSS pour vous aider à construire des interfaces web modernes et esthétiques."
+    },
+    {
+        "name": "CSS generator",
+        "img": "./assets/cssgenerator.png",
+        "github": "https://github.com/Soleil-Clems/Css_Generator",
+        "techno": [
+            "php",
+            "bash"
+        ],
+        "description": "Vise à comprendre le traitement des images et la gestion des fichiers en PHP. L'objectif principal est de développer un programme en ligne de commande UNIX qui concatène plusieurs images au format PNG en un seul sprite, tout en générant le fichier CSS correspondant."
+    },
+    {
+        "name": "Tic tac toe",
+        "img": "./assets/morpion.png",
+        "github": "https://github.com/Soleil-Clems/tic_tac_toe",
+        "techno": [
+            "js",
+            "html",
+            "css"
+        ],
+        "description": "Tic Tac Toe est une version du célèbre jeu de morpion développée en JavaScript en utilisant des classes pour la logique du jeu."
+    },
+    {
+        "name": "Extension Google-Wikipedia",
+        "img": "./assets/default.png",
+        "github": "https://github.com/Soleil-Clems/Google-Wikipedia-Search-Extension",
+        "techno": [
+            "js",
+            "html",
+            "css"
+        ],
+        "description": "Petit exercice dans la création d'une extension. Le projet fonctionne comme un moteur de recherche, il fait des recherches sur Google ou Wikipédia en fonction de votre thème de recherche et de la plateforme ciblée."
+    },
+    {
+        "name": "Random Quote",
+        "img": "./assets/randomquote.png",
+        "github": "https://github.com/Soleil-Clems/Google-Wikipedia-Search-Extension",
+        "techno": [
+            "react",
+            "api"
+        ],
+        "description": "Ce projet, réalisé dans le cadre de la plateforme FreeCodeCamp, est une opportunité pour moi de prendre en main React. Il s'agit de créer une application de citation aléatoire en utilisant cette bibliothèque JavaScript moderne."
+    },
+    {
+        "name": "Calculator",
+        "img": "./assets/calculator.png",
+        "github": "https://github.com/Soleil-Clems/odinCalculator",
+        "techno": [
+            "js",
+            "css",
+            "html"
+        ],
+        "description": "En utilisant les concepts fondamentaux de JavaScript et du DOM (Document Object Model), j'ai développé une interface utilisateur intuitive qui permet aux utilisateurs d'effectuer des calculs simplement en cliquant sur les boutons correspondants."
+    },
+    {
+        "name": "Etch-A-Sketch",
+        "img": "./assets/sketch.png",
+        "github": "https://github.com/Soleil-Clems/odin-Etch-A-Sketch",
+        "techno": [
+            "js",
+            "css",
+            "html"
+        ],
+        "description":"Ce projet consiste à recréer le jeu classique Etch-A-Sketch en utilisant HTML, CSS et JavaScript. Inspiré du célèbre jouet, l'objectif était de développer une version en ligne où les utilisateurs peuvent dessiner des motifs en utilisant leur souris pour déplacer un curseur à travers une grille. "
+    }
+]

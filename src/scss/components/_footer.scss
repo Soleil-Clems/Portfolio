@@ -1,0 +1,94 @@
+// Footer.scss
+
+footer {
+    background-color: $dark;
+    color: #fff;
+    padding: 40px 2em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-container {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+
+.footer-links, .footer-social, .footer-contact {
+    flex: 1;
+    button{
+        background: linear-gradient(to right, $blue, $purple);
+        
+        &:hover{
+            background: linear-gradient(to right, $purple, $blu);
+            
+        }
+    }
+
+    a{
+        svg{
+            font-size: 1.2em;
+        }
+    }
+}
+
+.footer-links ul, .footer-social ul {
+    row-gap: 1em;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li, .footer-social ul li {
+    margin-bottom: 10px;
+}
+
+.footer-social a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.footer-social a svg {
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    background-color: $dark;
+    text-align: center;
+    padding: 10px 0;
+
+}
+
+@media (max-width:800px){
+
+    .footer-container{
+        width: 100%;
+        
+    }
+}
+
+@media (max-width:501px){
+    footer{
+        row-gap: 1.2em;
+    }
+    .footer-container{
+        width: 100%;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        row-gap: 1.1em;
+
+    }
+
+    .footer-links, .footer-social, .footer-contact {
+        display: flex;
+        justify-content: center
+    }
+}

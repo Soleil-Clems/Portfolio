@@ -1,0 +1,61 @@
+.techno{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+        font-weight: bold;
+        background: linear-gradient(to right, $purple, $blue);
+        background-clip: text;
+        color: transparent;
+        font-size: 1.5em;
+        padding: 1em;
+        text-align: center;
+    }
+
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1em;
+        width: 50%;
+        
+        .card{
+            background: $light;
+            color: $dark;
+            display: flex;
+            font-size: 1.2em;
+            border-radius: 7px;
+            padding: .5em;
+            justify-content: center;
+            align-items: center;
+            column-gap: .5em;
+            transition: all .4s ease-out;
+
+            &:hover{
+                background: $purple;
+                color:$light;
+            }
+
+            svg{
+                font-size: 1.4em;
+            }
+            
+        }
+    }
+}
+
+@media (max-width:800px){
+    .techno{
+        .cards{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+@media (max-width:600px){
+    .techno{
+        .cards{
+            grid-template-columns: 1fr;
+        }
+    }
+}
