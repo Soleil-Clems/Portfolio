@@ -7,7 +7,7 @@ const Projects = () => {
     const disp = 'none'
     const [see, setSee] = useState(txt)
     const [display, setDisplay] = useState(disp)
-    console.log(datas)
+
     const handleClick = () => {
         if (see === txt) {
             setSee('Voir moins')

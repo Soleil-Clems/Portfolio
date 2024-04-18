@@ -6,20 +6,7 @@ import arrow from "../assets/arrow.png";
 const Home = () => {
     const [img, setImg] = useState(logHover);
 
-    useEffect(() => {
-
-        particlesJS("tsparticles", {
-
-            "particles": {
-                "number": {
-                    "value": 80
-                },
-                "size": {
-                    "value": 3
-                }
-            }
-        });
-    }, []);
+    
 
     const handleHover = () => {
         setImg(logo);
