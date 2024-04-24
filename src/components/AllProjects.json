@@ -127,7 +127,7 @@
     {
         "name": "Random Quote",
         "img": "./assets/randomquote.png",
-        "github": "https://github.com/Soleil-Clems/Google-Wikipedia-Search-Extension",
+        "github": "https://github.com/Soleil-Clems/",
         "techno": [
             "react",
             "api"

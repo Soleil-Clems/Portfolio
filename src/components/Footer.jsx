@@ -6,7 +6,7 @@ import { faLinkedin, faTwitter, faGithub } from '@fortawesome/free-brands-svg-ic
 function Footer() {
     
     const sendEmail =() => {
-        window.location.href = "mailto:t@gmail.com";
+        window.location.href = "mailto:ouisolclems@gmail.com";
     }
 
     return (

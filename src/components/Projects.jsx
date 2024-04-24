@@ -7,7 +7,7 @@ const Projects = () => {
     const disp = 'none'
     const [see, setSee] = useState(txt)
     const [display, setDisplay] = useState(disp)
-
+    
     const handleClick = () => {
         if (see === txt) {
             setSee('Voir moins')
@@ -25,7 +25,7 @@ const Projects = () => {
                 <h1>PROJETS</h1>
                 <div className="cards">
                     {
-                        datas.slice(0, 3).map((project, index) => (
+                        datas.slice(0, 4).map((project, index) => (
                             <Card
                                 key={index}
                                 name={project.name}
@@ -41,7 +41,7 @@ const Projects = () => {
                 </div>
                 <div className="more" style={{ display: display }}>
                 {
-                        datas.slice(3, datas.length).map((project, index) => (
+                        datas.slice(4, datas.length).map((project, index) => (
                             <Card
                                 key={index}
                                 name={project.name}

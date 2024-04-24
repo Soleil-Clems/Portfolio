@@ -20,13 +20,69 @@
                 height: 20em;
                 display: flex;
                 position: relative;
+                transition: all .5s  ease-out;
                 
+                
+                
+                .corner{
+                    padding: .5em;
+                    font-weight: bold;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: end;
+                    align-items: end;
+                    color: $dark;
+                    width: 130px;
+                    height: 130px;
+                    background: white;
+                    position: absolute;
+                    z-index: 12;
+                    opacity: 0;
+                    transition: all .5s  ease-out;
+                }
+                
+                .cornerLeft{
+                    top: -2em;
+                    left:-2em;
+                    transition: all .5s  ease-out;
+
+                }
+
+                .cornerRight{
+                    bottom:-2em;
+                    right:-2em;
+                }
+                
+                &:hover{
+                    transform: scale(.9);
+
+                    .corner{
+                        opacity: .8;
+                    }
+                    .cornerLeft{
+                        
+                        
+                        top: 0;
+                        left:0;
+                    }
+                    
+                    .cornerRight{
+                        bottom:0;
+                        right:0;
+                    }
+
+                    img{
+                        filter: brightness(.65);
+                    }
+                }
+
                 img{
                     width: 100%;
                     height: auto;
                     object-fit: cover;
                     filter: drop-shadow(5px 0px 20px $purple);
 
+                    
                 }
                 
                 .cadre{
