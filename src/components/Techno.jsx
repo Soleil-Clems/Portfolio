@@ -11,99 +11,99 @@ const Techno = () => {
                 <h1>TECHNOLOGIES</h1>
                 <div className="cards">
 
-                    <div className="card">
+                    <div className="card bootstrap">
                         <FontAwesomeIcon icon={faBootstrap} />
                         <p>Bootstrap</p>
                     </div>
-                    <div className="card">
+                    <div className="card tailwind">
                         <FontAwesomeIcon icon={faCss3} />
                         <p>Tailwind</p>
                     </div>
-                    <div className="card">
+                    <div className="card sass">
                         <FontAwesomeIcon icon={faSass} />
                         <p>Sass</p>
                     </div>
-                    <div className="card">
+                    <div className="card html">
                         <FontAwesomeIcon icon={faHtml5} />
                         <p>HTML</p>
                     </div>
-                    <div className="card">
+                    <div className="card css">
                         <FontAwesomeIcon icon={faCss3Alt} />
                         <p>CSS</p>
                     </div>
-                    <div className="card">
+                    <div className="card js">
                         <FontAwesomeIcon icon={faJs} />
                         <p>Javascript</p>
                     </div>
-                    <div className="card">
+                    <div className="card jquery">
                         <FontAwesomeIcon icon={faJs} />
                         <p>Jquery</p>
                     </div>
-                    <div className="card">
+                    <div className="card chartjs">
                         <FontAwesomeIcon icon={faJs} />
                         <p>Chartjs</p>
                     </div>
-                    <div className="card">
+                    <div className="card php">
                         <FontAwesomeIcon icon={faPhp} />
                         <p>PHP</p>
                     </div>
-                    <div className="card">
+                    <div className="card react">
                         <FontAwesomeIcon icon={faReact} />
                         <p>React</p>
                     </div>
-                    <div className="card">
+                    <div className="card symfony">
                         <FontAwesomeIcon icon={faSymfony} />
                         <p>Symfony</p>
                     </div>
-                    <div className="card">
+                    <div className="card node">
                         <FontAwesomeIcon icon={faNode} />
                         <p>Node</p>
                     </div>
-                    <div className="card">
+                    <div className="card phaser">
                         <FontAwesomeIcon icon={faCode} />
                         <p>Phaser</p>
                     </div>
-                    <div className="card">
+                    <div className="card sql">
                         <FontAwesomeIcon icon={faDatabase} />
                         <p>SQL</p>
                     </div>
-                    <div className="card">
+                    <div className="card firebase">
                         <FontAwesomeIcon icon={faFire} />
                         <p>Firebase</p>
                     </div>
-                    <div className="card">
+                    <div className="card python">
                         <FontAwesomeIcon icon={faPython} />
                         <p>Python</p>
                     </div>
-                    <div className="card">
+                    <div className="card figma">
                         <FontAwesomeIcon icon={faFigma} />
                         <p>Figma</p>
                     </div>
-                    <div className="card">
+                    <div className="card canva">
                         <FontAwesomeIcon icon={faImage} />
                         <p>Canva</p>
                     </div>
-                    <div className="card">
+                    <div className="card filezilla">
                         <FontAwesomeIcon icon={faFileExport} />
                         <p>FileZilla</p>
                     </div>
-                    <div className="card">
+                    <div className="card mamp">
                         <FontAwesomeIcon icon={faServer} />
                         <p>MAMP</p>
                     </div>
-                    <div className="card">
+                    <div className="card git">
                         <FontAwesomeIcon icon={faGitAlt} />
                         <p>Git</p>
                     </div>
-                    <div className="card">
+                    <div className="card docker">
                         <FontAwesomeIcon icon={faDocker} />
                         <p>Docker</p>
                     </div>
-                    <div className="card">
+                    <div className="card vscode">
                         <FontAwesomeIcon icon={faCodepen} />
                         <p>VSCode</p>
                     </div>
-                    <div className="card">
+                    <div className="card linux">
                         <FontAwesomeIcon icon={faLinux} />
                         <p>Linux</p>
                     </div>
