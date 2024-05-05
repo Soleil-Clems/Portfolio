@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /admin  # Exclure les pages d'administration si elles existent
+Disallow: /private  # Exclure les pages privées si elles existent
+Disallow: /404  # Exclure les pages d'erreur 404 si elles existent
+Disallow: /contact/thank-you  # Exclure les pages de confirmation si elles existent
+
+Sitemap: https://www.soleil-ouisol.fr/sitemap.xml
