@@ -23,7 +23,7 @@ const About = () => {
                                 <span>PHP</span>
                                 <span>Js</span>
                             </div>
-                            <img src={profil} alt="" />
+                            <img src={profil} className="myPic" alt="Soleil OUISOL picture" />
                             <div className="cadre"></div>
                         </div>
                     </div>
